@@ -1,0 +1,17 @@
+<% if !user_signed_in? %>
+  <div class="jumbotron">
+    <h1>Welcome to Spectray</h1>
+    <p>Spectray is a digital distribution and streaming video website where you can buy, watch and share independent film and television content. Users can watch content on our website for free and for a premium price, they can purchase content and access its special features like higher resolution/sound quality, behind-the-scenes images/footage and even a download option for offline viewing. Users can also set up a channel where they can stream content from their library with their friends around the world. Our goal is to introduce and promote content from exciting new indie creators while providing a legal, affordable and accessible alternative to piracy.</p>
+    <p><%= link_to "Sign up and watch some flicks!", new_user_registration_path, class: "btn btn-primary btn-lg" %></p>
+  </div>
+<% end %>
+
+<div class="row">
+  <% @movies.each do |movie| %>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+      <%= link_to (image_tag movie.image.url, class: 'image'), movie %>
+      </div>
+    </div>
+  <% end %>
+</div>
