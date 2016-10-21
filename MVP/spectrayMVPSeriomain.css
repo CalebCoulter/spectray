@@ -1,0 +1,124 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#header img {
+	position: absolute;
+	top: 20px;
+	left: 55px;
+}
+#header ul li {
+	display: block;
+	position: absolute;
+	top: 210px;
+	left: 95px;
+	font-size: 20px;
+}
+#header ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+#header ul li a:hover {
+	color: #3daaa9;
+}
+#titleandtagline {
+	position: absolute;
+	top: 150px;
+	left: 50px;
+}
+#movies img {
+	position: absolute;
+	top: 527px;
+	left: 310px;
+}
+#movies a {
+	padding: 10px;
+}
+#mainhomecontent > #movies > h1 {
+	position: absolute;
+	top: 530px;
+	left: 535px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	text-align: left;
+	font-size: 30px;
+}
+#mainhomecontent > #movies > h2 {
+	position: absolute;
+	top: 585px;
+	left: 535px;
+	font-size: 13px;
+}
+#mainhomecontent > #movies > h3 {
+	position: absolute;
+	top: 505px;
+	left: 535px;
+}
+#mainhomecontent > #movies > p {
+	position: absolute;
+	top: 610px;
+	font-size: 15px;
+	left: 535px;
+	padding-right: 300px;
+}
+#mainhomecontent > #movies > #videoplayer {
+	position: absolute;
+	top: 70px;
+	left: 430px;
+}
+#daffypassword > p {
+	position: absolute;
+	top: 430px;
+	left: 639px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#mainhomecontent > #movies > #bottomhalf > #Cast > h2 {
+	position: absolute;
+	top: 690px;
+	left: 535px;
+	font-weight: normal;
+	font-size: 25px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+#mainhomecontent > #movies > #bottomhalf > #Cast > #dacast {
+	position: absolute;
+	top: 725px;
+	left: 535px;
+	line-height: 250%;
+}
+#mainhomecontent > #movies > #bottomhalf > #Crew > h2 {
+	position: absolute;
+	top: 690px;
+	left: 800px;
+	font-weight: normal;
+	font-size: 25px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+#mainhomecontent > #movies > #bottomhalf > #Crew > #dacrew {
+	position: absolute;
+	top: 725px;
+	left: 800px;
+	line-height: 250%;
+}
+#mainhomecontent > #movies > #bottomhalf > #Crew > #dacrewnames {
+	position: absolute;
+	top: 725px;
+	left: 955px;
+	line-height: 250%;
+}
+#footer {
+	position: absolute;
+	bottom: -450px;
+	left: 550px;
+}
+#footer a {
+	text-decoration: none;
+	color: #000000;
+}
+#footer a:hover {
+	color: #3daaa9
+}
+#footer p {
+	margin:20px 250px 20px 0px;
+	text-align: justify;
+	font-size: 15px;
+}
