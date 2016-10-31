@@ -1,0 +1,80 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#header img {
+	position: absolute;
+	top: 20px;
+	left: 55px;
+}
+#header ul li {
+	display: block;
+	position: absolute;
+	top: 210px;
+	left: 95px;
+	font-size: 20px;
+}
+#header ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+#header ul li a:hover {
+	color: #3daaa9;
+}
+#titleandtagline {
+	position: absolute;
+	top: 150px;
+	left: 50px;
+}
+#mainhomecontent > h1 {
+	position: absolute;
+	top: 50px;
+	left: 600px;
+}
+#mainhomecontent > p {
+	position: absolute;
+	top: 120px;
+	left: 450px;
+	margin: 20px 250px 20px 0px;
+	text-align:justify;
+}
+#body > #mainhomecontent > #shorts {
+	position: absolute;
+	top: 250px;
+	left: 325px;
+}
+#shorts a {
+	padding: 10px;
+}
+#shows {
+	position: absolute;
+	top: 2150px;
+	left: 325px;
+}
+#shows a {
+	padding: 10px;
+}
+#movies {
+	position: absolute;
+	top: 2540px;
+	left: 325px;
+}
+#movies a {
+	padding: 10px;
+}
+#footer {
+	position: absolute;
+	bottom: -2400px;
+	left: 550px;
+}
+#footer a {
+	text-decoration: none;
+	color: #000000;
+}
+#footer a:hover {
+	color: #3daaa9
+}
+#footer p {
+	margin:20px 250px 20px 0px;
+	text-align: justify;
+	font-size: 15px;
+}
