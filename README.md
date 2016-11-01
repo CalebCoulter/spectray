@@ -1,9 +1,1 @@
-# README
-
-Spectray todo:
-
-- Synchronized play
-
-- Shopping Cart (users?)
-
-- Video embedding
+Spectray, a web service to display films for you and all your friends, synched up and ready to go!
